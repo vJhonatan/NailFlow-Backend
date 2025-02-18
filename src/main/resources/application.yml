@@ -1,0 +1,14 @@
+Spring:
+  Application:
+    Name: NailFlow
+  DataSource:
+    Url: jdbc:postgresql://localhost:5431/nailflow
+    Username: postgres
+    Password: postgres
+  Jpa:
+    Hibernate:
+      DdlAuto: update
+    ShowSql: true
+    Properties:
+      Hibernate:
+        Dialect: org.hibernate.dialect.PostgreSQLDialect
